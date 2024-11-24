@@ -1,0 +1,190 @@
+html{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+}
+
+body {
+    display: grid;
+    place-items: center;
+}
+
+.encabezado{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    margin-right: 400px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 75px;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+a{
+    margin-top: auto;
+    color: white;
+    text-decoration: none;
+}
+
+
+p{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+
+.bienvenida{
+    text-align: center;
+    justify-content: center;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+header h3{
+    display: block;
+    width: 100%;
+    margin-right: 500px;
+    color: white;
+}
+
+header img{
+    display: block;
+    margin-top: 10px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.contenedor{
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 100px;
+    background: rgb(53, 119, 53);
+    margin-top: auto;
+    width: 1120px;
+}
+
+.contenedor-productos{
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    margin: 27px;
+    margin-left: 45px;
+    height: 100%;
+    width: 100%;
+}
+
+
+.producto{
+    background-color: black;
+    text-align: center;
+    display: inline-flexbox;
+    width: 225px;
+    height: 510px;
+    color: white;
+    margin-top: 10px;
+    margin-right: 40px;
+    text-align: center;
+    border-radius: 27px;
+}
+
+footer{
+    background-color:  rgb(53, 119, 53);
+    padding: 10px;
+    color: white;
+    width: 1300px;
+}
+
+footer section{
+    float: left;
+    margin-right: 0px;
+    padding-left: 300px;
+}
+
+footer p{
+    float: center;
+}
+
+footer a{
+transition: color 0.3s ease;
+color: white;
+text-decoration: none;
+}
+
+footer a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.logo{
+    background: url(IMG/LOGO.jpg);
+    background-size: cover;
+    filter: drop-shadow(0px 7px 21px #01e701);
+    animation: rotar 5s linear infinite;
+    margin: 0px;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
+@keyframes rotar{
+    from{
+        transform: rotateY(180deg);
+    }
+    to{
+        transform: rotateY(-180deg);
+    }
+}
+
+.titulo-producto{
+    font-size: 20px;
+}
+
+.precio-producto{
+    font-size: 20px;
+}
+
+.boton-producto{
+    font-size: 15px;
+}
+
+button{
+    font-size: 18px;
+}
+
+.foter{
+    font-size: 30px;
+}
+
+.link{
+    font-size: 30px;
+}
+
+.copyr{
+    font-size: 40px;
+}
+
+.direccion{
+    font-size: 25px;
+}
+
+.opciones h3{
+    font-size: 40px;
+    border: 1px solid white;
+}
